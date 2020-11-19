@@ -193,7 +193,7 @@ styles to reset headings https://github.com/melnik909/r-title
   */
   /**/
   .timeline{
-    --timelineMainColor: #4557bb;
+    --timelineMainColor: #14213d;
   }
   
   /*
@@ -224,7 +224,7 @@ styles to reset headings https://github.com/melnik909/r-title
   
   .page{
     max-width: 47rem;
-    padding: 5rem 2rem 3rem;
+    padding: 2rem 2rem 3rem;
     margin-left: auto;
     margin-right: auto;
   }

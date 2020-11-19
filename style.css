@@ -21,9 +21,9 @@
     background: #000000;
 }
 
-.col-md-4 {
-    min-height: 600px;
-}
+/* .col-md-4 {
+    max-height: 800px;
+} */
 
 h2,
 h4 {
@@ -36,6 +36,7 @@ h5 {
 
 .flex {
     display: flex;
+    margin-bottom: 20px;
 }
 
 .icon {
@@ -52,6 +53,11 @@ h5 {
     border-bottom: 4px solid #ffffff;
 }
 
+.scroll {
+    max-height: 700px;
+    overflow: auto;
+    
+}
 
 
 @media only screen and (max-width: 648px) {

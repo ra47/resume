@@ -45,13 +45,25 @@
             color: #a3a3a3;
         }
 
+        .flex {
+            display: flex;
+        }
+
         .icon {
-            margin-bottom: 20px
+            color: white;
+            padding-right: 10px;
+            min-width: 40px;
         }
 
         .skill h2 {
             margin-left: 10px;
         }
+
+        .btmborder {
+            border-bottom: 4px solid #ffffff;
+        }
+
+
 
         @media only screen and (max-width: 648px) {
             h1 {
@@ -72,9 +84,14 @@
 <body>
     <div class="header font">
         <span>
-            <img class="round" src="image/rabbit.jpg">
-            <h1>Jirayut Patthaveesrisutha</h1>
-            <h3 style="color: #fca311; margin-top: -10px;">Back End Developer</h3>
+            <div class="flex"">
+                <img class=" round" src="image/rabbit.jpg">
+                <div>
+                    <h1>Jirayut Patthaveesrisutha</h1>
+                    <h3 style="color: #fca311; margin-top: -10px;">Back End Developer</h3>
+                </div>
+
+            </div>
         </span>
     </div>
 
@@ -82,7 +99,11 @@
         <div class="row">
             <div class="col-md-4 col-sm-6 aside">
                 <br>
-                <h2 style="border-bottom:4px solid #ffffff;"><i class="fas fa-user" style="padding: 10px;"></i>Personal Information</h2><br>
+                <div class="flex btmborder">
+                    <i class="fas fa-user icon fa-2x"></i>
+                    <h2>Personal Information</h2>
+                </div>
+                <br>
                 <h4>Name</h4>
                 <h5>Jirayut Patthaveesrisutha (Time)</h5><br>
                 <h4>Dath of Birth</h4>
@@ -90,22 +111,46 @@
                 <h4>Languages</h4>
                 <h5>- Thai</h5>
                 <h5>- English</h5> <br>
-                <h2 style="border-bottom:4px solid #ffffff;"><i class="fas fa-phone-square-alt "style="padding: 10px;"></i>Contact</h2><br>
+                <div class="flex btmborder">
+                    <i class="fas fa-phone-square-alt icon fa-2x "></i>
+                    <h2>Contact</h2>
+                </div>
+                <br>
 
-                <h4><i class="fas fa-mobile"></i> 097-231-1459</h4>
-                <h4><i class="fas fa-envelope"></i> jirayut.patt@gmail.com</h4>
-                <h4><i class="fas fa-code-branch"></i> github.com/ra47</h4>
+                <div class="flex">
+                    <i class="fas fa-mobile icon fa-2x"></i>
+                    <h4>097-231-1459</h4>
+                </div>
+                <div class="flex">
+                    <i class="fas fa-envelope icon fa-2x"></i>
+                    <h4>jirayut.patt@gmail.com</h4>
+                </div>
+                <div class="flex">
+                    <i class="fas fa-code-branch icon fa-2x"></i>
+                    <h4>github.com/ra47</h4>
+                </div>
+
+                
             </div>
             <div style="background: #a3a3a3;" class="col-md-4 col-sm-6 skill">
                 <br>
-                <h2 style="border-bottom:4px solid #ffffff;"><i class="fas fa-keyboard" style="padding: 10px;"></i></i> Progamming Languages</h2><br>
+
+                <div class="flex btmborder">
+                    <i class="fas fa-keyboard icon fa-2x"></i>
+                    <h2>Progamming Languages</h2>
+                </div>
+                <br>
                 <h2>- Java</h2>
                 <h2>- Swift</h2>
                 <h2>- Python</h2>
                 <h2>- C</h2>
                 <h2>- C++</h2>
                 <br>
-                <h2 style="border-bottom:4px solid #ffffff;"><i class="fas fa-tools" style="padding: 10px;"></i></i> Programming Tools & Database</h2><br>
+                <div class="flex btmborder">
+                    <i class="fas fa-tools icon fa-2x"></i>
+                    <h2>Programming Tools & Database</h2>
+                </div>
+                <br>
                 <h2>- Xcode</h2>
                 <h2>- Git</h2>
                 <h2>- IntelliJ</h2>
@@ -117,7 +162,7 @@
 
             </div>
             <div class="col-md-4 col-sm-12 aside">
-                
+
             </div>
         </div>
     </div>

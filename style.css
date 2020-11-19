@@ -1,0 +1,65 @@
+.font {
+    font-family: Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+}
+
+.header {
+    background: #14213d;
+    color: #ffffff;
+    padding: 20px;
+    min-height: 130px;
+}
+
+.round {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 10px;
+    float: left;
+}
+
+.aside {
+    background: #000000;
+}
+
+.col-md-4 {
+    min-height: 600px;
+}
+
+h2,
+h4 {
+    color: #ffffff;
+}
+
+h5 {
+    color: #a3a3a3;
+}
+
+.flex {
+    display: flex;
+}
+
+.icon {
+    color: white;
+    padding-right: 10px;
+    min-width: 40px;
+}
+
+.skill h2 {
+    margin-left: 10px;
+}
+
+.btmborder {
+    border-bottom: 4px solid #ffffff;
+}
+
+
+
+@media only screen and (max-width: 648px) {
+    h1 {
+        font-size: 30px !important;
+    }
+
+    h3 {
+        font-size: 20px !important;
+    }
+}
